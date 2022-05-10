@@ -1,0 +1,24 @@
+
+.headin_elem {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+  }
+  
+  .headin_elem h1 {
+    margin-left: -140px;;
+  }
+  
+  .insideA {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .insideA > * {
+    margin: 20px;
+  }
+  
+  .insideB {
+    display: flex;
+  }
+  

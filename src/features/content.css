@@ -1,0 +1,58 @@
+
+.content-section {
+    display: flex;
+  }
+  
+  .left-content {
+    width: 25vw;
+    background-color: azure;
+    height: 1000px;
+  }
+  
+  .right-content {
+    width: 66.5vw;
+    background-color:beige
+  }
+  
+  /* .content-section > * {
+    padding: 30px 70px;
+  } */
+  
+  .categories-items {
+    padding: 10px;
+  }
+  
+  .pricerange {
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .pricerange button {
+    margin-top: 20px;;
+    width: 70%;
+    height: 35px;
+  }
+  
+  .priceinputs > input {
+    margin: 20px;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+  }
+  
+  .rating {
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .refferal {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color:seagreen
+  }
