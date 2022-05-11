@@ -17,9 +17,7 @@ const InnerContent = () => {
            <div className="left-inner-div">
                 <input  type="text" placeholder='Min'>
                 </input>
-
                 <p>Search results for "Monstreat"</p>
-
                 <div className="left-inner-div-sort">
                     <p><strong>Sort</strong></p>
                         <button className="first-btn" type="button">Relevance</button>
@@ -177,10 +175,7 @@ const InnerContent = () => {
                             </div>
                             <button type="button">Add to Cart</button>
                         </div>
-                    </div>
-                    
-                    
-                    
+                    </div>    
                 </div>
            </div>
            <div className="right-inner-div">
@@ -226,7 +221,6 @@ const InnerContent = () => {
     </>
   )
 };
-
 
 InnerContent.propTypes = {
     children: PropTypes.node.isRequired,
