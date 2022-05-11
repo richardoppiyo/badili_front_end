@@ -7,9 +7,6 @@
 
 ## Screenshot
 
-![screenshot](./a.png)
-
-![screenshot](./b.png)
 
 ## Live Link
 [Click Here](https://dancing-kataifi-351f32.netlify.app)
@@ -17,7 +14,7 @@
 
 ## Built With
 - Major Languages: JAVASCRIPT, HTML, CSS
-- Major Technologies : Git, Github, Webpack, React, Redux
+- Major Technologies : Git, Github, Webpack, React
 
 ### Prerequisites
 - npm ( Node Package Manager )
