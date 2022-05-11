@@ -3,39 +3,57 @@
     display: flex;
   }
   
+  .filter-head {
+    margin-left: 20px;
+  }
+
   .left-content {
-    width: 25vw;
-    background-color: azure;
-    height: 1000px;
+    width: 20vw;
+    background-color:white
+    /* height: 1000px; */
   }
   
   .right-content {
-    width: 66.5vw;
-    background-color:beige
+    width: 71vw;
+    background-color:whitesmoke
   }
   
-  /* .content-section > * {
-    padding: 30px 70px;
-  } */
-  
+  .cate-head {
+    margin-left: 30px;;
+  }
+
   .categories-items {
+    margin-left: 30px;
+  }
+
+  .categories-items > * {
     padding: 10px;
+    margin-top: 20px;
   }
   
   .pricerange {
     padding: 40px;
-    text-align: center;
     margin: auto;
+    text-align: center;
   }
-  
+
+  .pricerange h2{ 
+    text-align: left !important;
+    margin-left: 20px;
+
+  }
+
   .pricerange button {
-    margin-top: 20px;;
+    margin-top: 40px;;
     width: 70%;
     height: 35px;
+    background-color: green;
+    border-radius: 15px;
+    color: #fff;
   }
   
   .priceinputs > input {
-    margin: 20px;
+    margin: 10px 0 0 10px;
     width: 70px;
     height: 35px;
     border-radius: 10px;
@@ -43,16 +61,40 @@
   
   .rating {
     padding: 50px;
-    text-align: center;
     margin: auto;
+  }
+
+  .rating h2 {
+    margin-left: 15px;
+  }
+
+
+  .starbox input {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;;
   }
   
   .refferal {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 50%;
+    width: 70%;
+    height: 200px;
     text-align: center;
     margin: auto;
+    border-radius: 15px;
     background-color:seagreen
+  }
+
+  .refferal p {
+    line-height: 20px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .refferal button {
+    min-height: 50px;
+    background-color: yellow;
+    border-radius: 15px;;
   }

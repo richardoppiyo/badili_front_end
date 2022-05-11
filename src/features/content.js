@@ -1,14 +1,16 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import './content.css'
+import { AiFillStar } from 'react-icons/ai';
+import { AiOutlineStar } from 'react-icons/ai';
 
 
 const Sidebar = ({ children }) => (
     <main>
         <div className='left-content'>
-            <h1>Filters</h1>
+            <h1 className="filter-head">Filters</h1>
             <div>
-               <h2>Categories</h2>
+               <h2 className="cate-head">Categories</h2>
                <div className='categories-items'>
                   <input type="checkbox" id="itemfilter" name="itemfilter" value="Gardening"></input>
                   <label for="itemfilter"> Gardening</label>
@@ -42,12 +44,18 @@ const Sidebar = ({ children }) => (
             <div className='rating'>
                <h2>Rating</h2>
                <div>
-               <input type="checkbox" id="ratefilter" name="ratefilter" value="****  above"></input>
-                <label for="ratefilter"> ****  above</label>
+                <div className="starbox"> 
+                    <input type="checkbox" id="ratefilter" name="ratefilter" checked></input>
+                            <AiFillStar className="stars"/>
+                            <AiFillStar className="stars"/>
+                            <AiFillStar className="stars"/>
+                            <AiOutlineStar className="stars"/>
+                            <p>above</p>
+                </div>
                </div>
             </div>
             <div className='refferal'>
-                <h3>Get 30% off</h3>
+                <h3>GET 30% OFF</h3>
                 <p>share your refferal code and get discounted</p>
                 <button type="button">Share</button>
             </div>
