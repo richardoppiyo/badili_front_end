@@ -1,100 +1,97 @@
 
 .content-section {
-    display: flex;
-  }
-  
-  .filter-head {
-    margin-left: 20px;
-  }
+  display: flex;
+}
 
-  .left-content {
-    width: 20vw;
-    background-color:white
-    /* height: 1000px; */
-  }
-  
-  .right-content {
-    width: 71vw;
-    background-color:whitesmoke
-  }
-  
-  .cate-head {
-    margin-left: 30px;;
-  }
+.filter-head {
+  margin-left: 20px;
+}
 
-  .categories-items {
-    margin-left: 30px;
-  }
+.left-content {
+  width: 20vw;
+  background-color: white;
+}
 
-  .categories-items > * {
-    padding: 10px;
-    margin-top: 20px;
-  }
-  
-  .pricerange {
-    padding: 40px;
-    margin: auto;
-    text-align: center;
-  }
+.right-content {
+  width: 71vw;
+  background-color: whitesmoke;
+}
 
-  .pricerange h2{ 
-    text-align: left !important;
-    margin-left: 20px;
+.cate-head {
+  margin-left: 30px;
+}
 
-  }
+.categories-items {
+  margin-left: 30px;
+}
 
-  .pricerange button {
-    margin-top: 40px;;
-    width: 70%;
-    height: 35px;
-    background-color: green;
-    border-radius: 15px;
-    color: #fff;
-  }
-  
-  .priceinputs > input {
-    margin: 10px 0 0 10px;
-    width: 70px;
-    height: 35px;
-    border-radius: 10px;
-  }
-  
-  .rating {
-    padding: 50px;
-    margin: auto;
-  }
+.categories-items > * {
+  padding: 10px;
+  margin-top: 20px;
+}
 
-  .rating h2 {
-    margin-left: 15px;
-  }
+.pricerange {
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+}
 
+.pricerange h2 {
+  text-align: left !important;
+  margin-left: 20px;
+}
 
-  .starbox input {
-    height: 20px;
-    width: 20px;
-    padding-right: 10px;;
-  }
-  
-  .refferal {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    width: 70%;
-    height: 200px;
-    text-align: center;
-    margin: auto;
-    border-radius: 15px;
-    background-color:seagreen
-  }
+.pricerange button {
+  margin-top: 40px;
+  width: 70%;
+  height: 35px;
+  background-color: green;
+  border-radius: 15px;
+  color: #fff;
+}
 
-  .refferal p {
-    line-height: 20px;
-    font-size: 20px;
-    color: #fff;
-  }
+.priceinputs > input {
+  margin: 10px 0 0 10px;
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+}
 
-  .refferal button {
-    min-height: 50px;
-    background-color: yellow;
-    border-radius: 15px;;
-  }
+.rating {
+  padding: 50px;
+  margin: auto;
+}
+
+.rating h2 {
+  margin-left: 15px;
+}
+
+.starbox input {
+  height: 20px;
+  width: 20px;
+  padding-right: 10px;
+}
+
+.refferal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 70%;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  border-radius: 15px;
+  background-color: seagreen;
+}
+
+.refferal p {
+  line-height: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.refferal button {
+  min-height: 50px;
+  background-color: yellow;
+  border-radius: 15px;
+}
