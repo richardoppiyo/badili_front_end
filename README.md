@@ -68,8 +68,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- To morning session team,reviewers and standup team members.
-- Design by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Badili.africa team
 
 ## 📝 License
 
