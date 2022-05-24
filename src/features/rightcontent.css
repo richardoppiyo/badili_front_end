@@ -6,20 +6,20 @@
   width: 85%;
 }
 
-.left-inner-div input::-webkit-input-placeholder { 
-  color: #b8b8b8;
-  font-size: 1rem;
-}
-
 .left-inner-div input {
   width: 90%;
   height: 40px;
   margin: 15px 10px;
 }
 
-#search::-webkit-search-cancel-button{
-  position:relative;
-  right:20px;    
+.left-inner-div input::-webkit-input-placeholder {
+  color: #b8b8b8;
+  font-size: 1rem;
+}
+
+#search::-webkit-search-cancel-button {
+  position: relative;
+  right: 20px;
 }
 
 .right-inner-div h2,
@@ -47,6 +47,7 @@ p {
   width: 100px;
   height: 35px;
   border: 1px solid whitesmoke;
+
   /* background-color: transparent; */
 }
 
@@ -67,7 +68,6 @@ p {
   width: 75%;
   min-height: 330px;
   margin: 40px;
-  border-radius: 20px;
   background-color: white;
   border-radius: 10px;
   border: solid 2px whitesmoke;
