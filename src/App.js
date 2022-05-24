@@ -11,7 +11,6 @@ function App() {
         <Sidebar />
         <InnerContent />
       </section>
-      {/* <Sidebar/> */}
     </div>
   );
 }

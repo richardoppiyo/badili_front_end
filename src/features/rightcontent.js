@@ -1,16 +1,16 @@
+/* eslint-disable no-undef */
 import React from 'react';
-import PropTypes from 'prop-types';
 import './rightcontent.css';
 import {
   AiFillDribbbleCircle, AiTwotoneEdit, AiTwotoneHeart, AiOutlineHeart, AiFillStar, AiOutlineStar,
 } from 'react-icons/ai';
 
-function InnerContent({ children }) {
+function InnerContent() {
   return (
     <main>
       <div className="right-content">
         <div className="left-inner-div">
-          <input type="text" placeholder="Min" />
+          <input type="text" placeholder="&#xF002;  Montera" id="search" style={{ fontFamily: 'Arial, FontAwesome' }} />
           <p>Search results for Monstreat</p>
           <div className="left-inner-div-sort">
             <p><strong>Sort</strong></p>
@@ -167,7 +167,7 @@ function InnerContent({ children }) {
           </div>
         </div>
         <div className="right-inner-div">
-          <div className="containerbtn">
+          <div className="containerbtn circle-bg">
             <button type="button">X</button>
           </div>
           <div className="picdiv2" />
@@ -207,13 +207,8 @@ function InnerContent({ children }) {
           </div>
         </div>
       </div>
-      {children}
     </main>
   );
 }
-
-InnerContent.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default InnerContent;
