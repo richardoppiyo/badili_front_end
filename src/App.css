@@ -1,3 +1,11 @@
 .App {
   padding: 80px;
+  background-color: whitesmoke;
+}
+
+input[type="text"] {
+  background: #fafafa;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
 }

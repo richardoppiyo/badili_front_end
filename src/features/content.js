@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 import './content.css';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
-function Sidebar({ children }) {
+function Sidebar() {
+  const [checked, setChecked] = useState(true);
   return (
     <main>
       <div className="left-content">
@@ -45,7 +45,7 @@ function Sidebar({ children }) {
           <h2>Rating</h2>
           <div>
             <div className="starbox">
-              <input type="checkbox" id="ratefilter" name="ratefilter" checked />
+              <input type="checkbox" id="ratefilter" name="ratefilter" defaultChecked={checked} onChange={() => setChecked(!checked)} />
               <AiFillStar className="stars" />
               <AiFillStar className="stars" />
               <AiFillStar className="stars" />
@@ -61,13 +61,8 @@ function Sidebar({ children }) {
         </div>
 
       </div>
-      {children}
     </main>
   );
 }
-
-Sidebar.propTypes = {
-  children: PropTypes.node.isRequired,
-};
 
 export default Sidebar;
