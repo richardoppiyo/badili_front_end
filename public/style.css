@@ -1,0 +1,46 @@
+/* ROOT CSS VARIABLES */
+:root {
+    --color-white: #ffffff;
+    --color-smoke: #fafafa;
+    --color-light: #f0eff5;
+    --color-gray-light: #86848c;
+    --color-gray-dark: #56555e;
+    --color-dark: #27282f;
+    --color-primary: green;
+
+    --product-padding: 1.6rem;
+    --padding-1: 1rem;
+    --padding-2: 2rem;
+    --padding-3: 3rem;
+    --padding-4: 4rem;
+    --padding-5: 5rem;
+    --padding-6: 6rem;
+    --padding-7: 7rem;
+    --padding-8: 8rem;
+    --padding-8-px: 8px;
+
+    --product-border-radius: 1.6rem;
+    --border-radius-1: 1rem;
+    --border-radius-6-px: 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    appearance: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background: var(--color-light);
+    font-family: poppins, sans-serif;
+    min-height: 100vh;
+    color: var(--color-dark);
+}
