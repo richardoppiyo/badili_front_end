@@ -30,7 +30,7 @@
     padding: 0;
     outline: 0;
     border: 0;
-    appearance: none;
+    /* appearance: none; */
     text-decoration: none;
     list-style: none;
 }
@@ -70,6 +70,46 @@ h5 {
 
 h6 {
     font-size: 7.6rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pb-3 {
+    padding-bottom: 3rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.pb-5 {
+    padding-bottom: 5rem;
+}
+
+.pt-1 {
+    padding-top: 1rem;
+}
+
+.pt-2 {
+    padding-top: 2rem;
+}
+
+.pt-3 {
+    padding-top: 3rem;
+}
+
+.pt-4 {
+    padding-top: 4rem;
+}
+
+.pt-5 {
+    padding-top: 5rem;
 }
 
 p {
@@ -211,3 +251,42 @@ nav .profile-photo-section button {
     background: transparent;
     display: none;
 }
+
+
+/* ============== LEFT BAR ================= */
+aside {
+    width: 25%;
+    border-right: 2px solid var(--color-light);
+
+}
+aside .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+
+aside .container .side-filter {
+    padding: 2rem 0;
+}
+
+aside .hr {
+    border-bottom: 2px solid var(--color-light);
+    width: 100%;
+}
+
+aside .container .side-filter .categories-items { 
+    display: flex;
+    flex-direction: column;
+}
+
+aside .container .side-filter .categories-items .category-item { 
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-direction: row;
+    padding-bottom: .5rem;
+}
+

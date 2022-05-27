@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!-- NAV BAR -->
     <nav>
       <div class="container">
         <div class="logo">
@@ -54,7 +55,7 @@
             <span class="material-symbols-rounded active">light_mode</span>
             <span class="material-symbols-rounded">dark_mode</span>
           </div>
-         
+
           <div class="profile">
             <div class="action-icons">
               <span class="material-symbols-rounded"> shopping_bag </span>
@@ -63,7 +64,7 @@
             <div class="profile-img">
               <img src="./profile-avatar.jpg" />
             </div>
-            <h5> Evin Tone </h5>
+            <h5>Evin Tone</h5>
             <span class="material-symbols-rounded"> expand_more </span>
           </div>
           <button id="menu-btn">
@@ -72,5 +73,52 @@
         </div>
       </div>
     </nav>
+    <!-- END NAV BAR -->
+
+    <aside>
+      <div class="container">
+        <div class="side-filter">
+          <h3>Filter</h3>
+        </div>
+      </div>
+
+      <hr class="hr" />
+
+      <div class="container">
+        <div class="side-filter">
+          <h3 class="pb-1">Categories</h3>
+          <div class="categories-items">
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+                value="Gardening"
+                checked
+              />
+              <label for="itemfilter"> Gardening</label>
+            </div>
+
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+                checked
+              />
+              <label for="itemfilter"> Seeds</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="hr" />
+    </aside>
+
+    <section class="center"></section>
+    <!-- END CENTER -->
+
+    <section class="right"></section>
+    <!-- END RIGHT -->
   </body>
 </html>
