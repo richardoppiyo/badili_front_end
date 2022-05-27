@@ -7,7 +7,7 @@
     <title>Landing</title>
     <!-- Material Icons -->
     <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
 
@@ -34,28 +34,42 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="container">
-      <div class="logo">
-        <span class="material-symbols-rounded"> gleaf </span>
-      </div>
-      <div class="menu">
-        <ul class="">
-          <li>Shop</li>
-          <li>Plant Care</li>
-          <li>Workshops</li>
-          <li>Blogs</li>
-        </ul>
-      </div>
-      <div class="profile">
-        <div>
-            <span class="material-symbols-rounded">
-                shopping_bag
-            </span>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <span class="material-symbols-rounded"> gleaf </span>
+          <h3>OYOTEE</h3>
         </div>
-        <span class="material-symbols-rounded">
-            favorite
-        </span>
-        <img src="./profile-avatar.jpg" alt="" width="100">
+        <!-- <div class="menu">
+          <ul class="menu-list">
+            <li class="active"><a href="#">Shop</a></li>
+            <li>Plant Care</li>
+            <li>Workshops</li>
+            <li>Blogs</li>
+          </ul>
+        </div> -->
+
+        <div class="profile-photo-section">
+          <div class="theme-btn">
+            <span class="material-symbols-rounded active">light_mode</span>
+            <span class="material-symbols-rounded">dark_mode</span>
+          </div>
+         
+          <div class="profile">
+            <div class="action-icons">
+              <span class="material-symbols-rounded"> shopping_bag </span>
+              <span class="material-symbols-rounded"> favorite </span>
+            </div>
+            <div class="profile-img">
+              <img src="./profile-avatar.jpg" />
+            </div>
+            <h5> Evin Tone </h5>
+            <span class="material-symbols-rounded"> expand_more </span>
+          </div>
+          <button id="menu-btn">
+            <span class="material-symbols-rounded"> menu </span>
+          </button>
+        </div>
       </div>
     </nav>
   </body>

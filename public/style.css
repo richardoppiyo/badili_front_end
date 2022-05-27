@@ -6,7 +6,8 @@
     --color-gray-light: #86848c;
     --color-gray-dark: #56555e;
     --color-dark: #27282f;
-    --color-primary: green;
+    --color-primary: #3fa551;
+    --color-primary-light: #4bc361;
 
     --product-padding: 1.6rem;
     --padding-1: 1rem;
@@ -39,8 +40,174 @@ html {
 }
 
 body {
-    background: var(--color-light);
+    /* background: var(--color-light); */
+    background: var(--color-white);
     font-family: poppins, sans-serif;
     min-height: 100vh;
     color: var(--color-dark);
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.86rem;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 7.6rem;
+}
+
+p {
+    font-size: 0.86rem;
+    color: var(--color-gray-dark)
+}
+
+small {
+    font-weight: 300;
+    font-size: 0.77rem;
+}
+
+.text-muted {
+    color: var(--color-gray-light);
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.bg-primary {
+    color: var(--color-primary);
+    box-shadow: 0 0.8rem 0.8rem var(--color-primary-light);
+}
+
+/* ============ NAV BAR ============== */
+nav {
+    width: 100%;
+    background: var(--color-white);
+    padding: .5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-light);
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    color: var(--color-dark)
+}
+
+nav .logo .material-symbols-rounded {
+    margin-right: 5px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    padding: 5%;
+    border-radius: 100%;
+}
+
+nav .menu .menu-list {
+    font-weight: 600;
+    color: var(--color-gray-dark);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu ul>li {
+    /* prevent menu new line */
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 15%;
+    padding-bottom: 10%;
+}
+
+nav .menu ul>li.active {
+    border-bottom: 3px solid var(--color-primary);
+}
+
+nav .menu ul>li.active a {
+    color: inherit;
+}
+
+nav .profile-photo-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+nav .profile-photo-section .theme-btn { 
+    display: flex;
+    background: var(--color-light);
+    width: 5rem;
+    height: 2rem;
+    border-radius: var(--border-radius-6-px);
+    cursor: pointer;
+}
+
+nav .profile-photo-section .theme-btn span { 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+nav .profile-photo-section .theme-btn .active { 
+    background: var(--color-dark);
+    border-radius: var(--border-radius-6-px);
+    color: var(--color-white)
+}
+
+nav .profile-photo-section .action-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+ }
+
+nav .profile-photo-section .profile {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+nav .profile-photo-section .profile-img img { 
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: .1rem solid var(--color-gray-light);
+    padding: .2rem;
+}
+
+nav .profile-photo-section .profile-img img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+nav .profile-photo-section button {
+    background: transparent;
+    display: none;
 }
