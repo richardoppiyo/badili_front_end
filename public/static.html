@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing</title>
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Google FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--Rounded Material Icons-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      .material-symbols-rounded {
+        font-variation-settings: "FILL" 0, "wght" 600, "GRAD" 0, "opsz" 48;
+      }
+    </style>
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <span class="material-symbols-rounded"> gleaf </span>
+          <h3>OYOTEE</h3>
+        </div>
+        <!-- <div class="menu">
+          <ul class="menu-list">
+            <li class="active"><a href="#">Shop</a></li>
+            <li>Plant Care</li>
+            <li>Workshops</li>
+            <li>Blogs</li>
+          </ul>
+        </div> -->
+
+        <div class="profile-photo-section">
+          <div class="theme-btn">
+            <span class="material-symbols-rounded active">light_mode</span>
+            <span class="material-symbols-rounded">dark_mode</span>
+          </div>
+
+          <div class="profile">
+            <div class="action-icons">
+              <span class="material-symbols-rounded"> shopping_bag </span>
+              <span class="material-symbols-rounded"> favorite </span>
+            </div>
+            <div class="profile-img">
+              <img src="./profile-avatar.jpg" />
+            </div>
+            <h5>Evin Tone</h5>
+            <span class="material-symbols-rounded"> expand_more </span>
+          </div>
+          <button id="menu-btn">
+            <span class="material-symbols-rounded"> menu </span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAV BAR -->
+
+    <aside>
+      <div class="container">
+        <div class="side-filter">
+          <h3>Filter</h3>
+        </div>
+      </div>
+
+      <hr class="hr" />
+
+      <div class="container">
+        <div class="side-filter">
+          <h3 class="pb-1">Categories</h3>
+          <div class="categories-items">
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+                value="Gardening"
+              />
+              <label for="itemfilter"> Gardening</label>
+            </div>
+
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+                checked
+              />
+              <label for="itemfilter"> Plants</label>
+            </div>
+
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+              />
+              <label for="itemfilter"> Seeds</label>
+            </div>
+
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+              />
+              <label for="itemfilter"> Bulbs</label>
+            </div>
+
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+              />
+              <label for="itemfilter"> Planters</label>
+            </div>
+
+            <div class="category-item">
+              <input
+                type="checkbox"
+                id="itemfilter"
+                name="itemfilter"
+              />
+              <label for="itemfilter"> Seeds</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="hr" />
+    </aside>
+
+    <section class="center"></section>
+    <!-- END CENTER -->
+
+    <section class="right"></section>
+    <!-- END RIGHT -->
+  </body>
+</html>
