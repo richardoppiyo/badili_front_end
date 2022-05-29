@@ -299,12 +299,14 @@ nav .profile-photo-section button {
     display: none;
 }
 
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* ============== LEFT BAR ================= */
 aside {
-    width: 25%;
+    width: 20%;
     border-right: 2px solid var(--color-light);
-
 }
 aside .container {
     display: flex;
@@ -337,3 +339,29 @@ aside .container .side-filter .categories-items .category-item {
     padding-bottom: .5rem;
 }
 
+aside .container .side-filter .expand-filter {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ============== LEFT BAR ================= */
+.center {
+    width: 53%;
+    border-right: 2px solid var(--color-light);
+    min-height: 10%;
+}
+
+/* ============== LEFT BAR ================= */
+.right {
+    width: 25%;
+    /* border-right: 2px solid var(--color-light); */
+    min-height: 10%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .right, .center, aside {
+        width: 100%;
+    }
+  }
