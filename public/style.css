@@ -135,6 +135,53 @@ small {
     box-shadow: 0 0.8rem 0.8rem var(--color-primary-light);
 }
 
+/* Hide the default checkbox */
+.category-item input {
+    /* visibility: hidden;
+    cursor: pointer; */
+}
+
+/* Create a custom checkbox */
+.checkbox-label {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: lightgray;
+}
+
+.category-item:hover input ~ .checkbox-label {
+    background-color: gray;
+}
+
+.category-item input:checked ~ .checkbox-label {
+    background-color: blue;
+}
+
+/* Create the mark/indicator (hidden when not checked) */
+.checkbox-label:after {
+    content: "";
+    /* position: absolute; */
+    display: none;
+}
+
+/* Show the mark when checked */
+.category-item input:checked ~ .checkbox-label:after {
+    display: block;
+}
+
+/* Style the mark/indicator */
+.category-item .checkbox-label:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
 /* ============ NAV BAR ============== */
 nav {
     width: 100%;
